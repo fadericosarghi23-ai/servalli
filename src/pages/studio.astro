@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHero from '../components/PageHero.astro';
+import Picture from '../components/Picture.astro';
+import Cta from '../components/Cta.astro';
+import { site } from '../data/site';
+import { team } from '../data/team';
+import { progetto } from '../data/progetti';
+import { numeriStudio, approccio, competenzeStudio } from '../data/contenuti';
+
+const crumbs = [{ name: 'Home', href: '/' }, { name: 'Biografia', href: '/studio/' }];
+const hero = progetto('studio-bergamo').immagini[0];
+const foto = [{ src: '/images/studio/marco-paolo-servalli.jpg', width: 1600, height: 1068, alt: 'L’architetto Marco Paolo Servalli nello studio di Bergamo' }, progetto('sant-agata-nel-carmine').immagini[0]];
+---
+<Layout title="Biografia | Marco Paolo Servalli, architetto a Bergamo" description="Marco Paolo Servalli, architetto a Bergamo: laurea al Politecnico di Milano sul restauro, dal 1993 autore di progetti di restauro e riqualificazione architettonica." pageType="AboutPage" ogType="article" transparent crumbs={crumbs}>
+<PageHero img={hero} crumbs={crumbs} eyebrow="Biografia"> <h1 class="h1-page">Marco Paolo <em>Servalli</em></h1> <p class="lead">Dal 1993 autore di importanti progetti di restauro e riqualificazione architettonica.</p> </PageHero>
+<section class="section"> <div class="container split"> <div class="reveal"> <p class="eyebrow mb-2">Lo studio</p> <h2 class="h2">Funzionalità degli spazi, estetica degli ambienti</h2> </div> <div class="prose lead reveal"> <p>L’architettura è un organismo vivo, con una sua storia, una nascita e una vita di trasformazioni. Il recupero è anch’esso un’opera di trasformazione, che adegua l’edificio alle esigenze del vivere moderno, e che deve essere condotta nel rispetto della cultura che lo ha prodotto e del fascino che trasmette.</p> <p>Marco Paolo Servalli è autore di importanti progetti di restauro e riqualificazione architettonica. È considerato uno specialista nel recupero di edifici e nella specifica direzione lavori.</p> </div> </div> <div class="container mt-4"> <div class="stats reveal"> {numeriStudio.map((s) => <div class="stat"><strong>{s.n}</strong><span>{s.label}</span></div>)} </div> </div> </section>
+<section class="section bg-sand"> <div class="container"> <div class="section-head reveal"> <div> <p class="eyebrow">Metodo</p> <h2 class="h2">Come lavora lo studio</h2> </div> </div> <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 2.5rem"> {approccio.map((a, i) => <div class="reveal border-top" style={`padding-top:1.5rem; transition-delay:${i * 80}ms`}> <p class="eyebrow mb-2">{String(i + 1).padStart(2, '0')}</p> <h3 class="h3 mb-2">{a.titolo}</h3> <p>{a.testo}</p> </div>)} </div> <div class="grid-2 mt-4"> {foto.map((f) => <div class="ratio-32 reveal"><Picture img={f} sizes="(min-width: 1024px) 45vw, 92vw" /></div>)} </div> </div> </section>
+<section class="section" id="team"> <div class="container"> <div class="section-head reveal"> <div> <p class="eyebrow">Biografia</p> <h2 class="h2">L’architetto</h2> <p class="lead mt-2">Allegati: <a href="/docs/marco-paolo-servalli-cv-europass.pdf" class="link-underline" target="_blank" rel="noopener">CV formato europeo (PDF)</a> · <a href="/docs/marco-paolo-servalli-curriculum-sintetico.pdf" class="link-underline" target="_blank" rel="noopener">Curriculum sintetico (PDF)</a></p> </div> </div> {team.map((m) => <div class="split" id={m.id}> <div class="member reveal"> <div class="photo"><Picture img={m.foto} sizes="(min-width: 1024px) 38vw, 92vw" /></div> <h3>{m.nome}</h3> <p>{m.ruolo}</p> </div> {m.bio && <div class="prose lead reveal">{m.bio.split('\n').map((p) => <p>{p}</p>)}</div>} </div>)} </div> </section>
+<section class="section bg-sand"> <div class="container grid-2"> <div class="reveal"> <p class="eyebrow mb-2">Sede</p> <h2 class="h2">{site.indirizzo.citta}</h2> <p class="lead mt-3">{site.indirizzo.via}, {site.indirizzo.cap} {site.indirizzo.citta} ({site.indirizzo.provincia}).</p> <div class="btn-row mt-4"> <a href="/contatti/" class="btn btn-primary">Contatti</a> <a href={site.mapsUrl} target="_blank" rel="noopener" class="btn btn-outline">Indicazioni stradali</a> </div> </div> <div class="reveal"> <ul class="checklist lead"> {competenzeStudio.map((c) => <li>{c}</li>)} </ul> </div> </div> </section>
+<Cta />
+</Layout>

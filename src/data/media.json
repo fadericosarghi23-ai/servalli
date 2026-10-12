@@ -1,0 +1,1479 @@
+{
+ "progetti": {
+  "restauro-cappella-gentilizia": [
+   {
+    "src": "/images/progetti/restauro-cappella-gentilizia/01.jpg",
+    "width": 1600,
+    "height": 1600,
+    "orig": "restauro_conservativo_cappella_gentilizia_servalli_architettura_3.jpg"
+   },
+   {
+    "src": "/images/progetti/restauro-cappella-gentilizia/02.jpg",
+    "width": 1600,
+    "height": 1236,
+    "orig": "restauro_conservativo_cappella_gentilizia_servalli_architettura_6.jpg"
+   },
+   {
+    "src": "/images/progetti/restauro-cappella-gentilizia/03.jpg",
+    "width": 1600,
+    "height": 1201,
+    "orig": "restauro_conservativo_cappella_gentilizia_servalli_architettura_1.jpg"
+   },
+   {
+    "src": "/images/progetti/restauro-cappella-gentilizia/04.jpg",
+    "width": 1600,
+    "height": 1131,
+    "orig": "restauro_conservativo_cappella_gentilizia_servalli_architettura_4.jpg"
+   },
+   {
+    "src": "/images/progetti/restauro-cappella-gentilizia/05.jpg",
+    "width": 1600,
+    "height": 1105,
+    "orig": "restauro_conservativo_cappella_gentilizia_servalli_architettura_8.jpg"
+   },
+   {
+    "src": "/images/progetti/restauro-cappella-gentilizia/06.jpg",
+    "width": 1600,
+    "height": 977,
+    "orig": "restauro_conservativo_cappella_gentilizia_servalli_architettura_7.jpg"
+   },
+   {
+    "src": "/images/progetti/restauro-cappella-gentilizia/07.jpg",
+    "width": 1600,
+    "height": 1052,
+    "orig": "restauro_conservativo_cappella_gentilizia_servalli_architettura_5.jpg"
+   },
+   {
+    "src": "/images/progetti/restauro-cappella-gentilizia/08.jpg",
+    "width": 1600,
+    "height": 1151,
+    "orig": "restauro_conservativo_cappella_gentilizia_servalli_architettura_2.jpg"
+   }
+  ],
+  "chiesa-di-san-rocco": [
+   {
+    "src": "/images/progetti/chiesa-di-san-rocco/01.jpg",
+    "width": 1600,
+    "height": 1600,
+    "orig": "chiesa_s.rocco_marco-paolo-servalli-architettura_8_1.jpg"
+   },
+   {
+    "src": "/images/progetti/chiesa-di-san-rocco/02.jpg",
+    "width": 1600,
+    "height": 1067,
+    "orig": "chiesa_s.rocco_marco-paolo-servalli-architettura_4.jpg"
+   },
+   {
+    "src": "/images/progetti/chiesa-di-san-rocco/03.jpg",
+    "width": 1600,
+    "height": 1200,
+    "orig": "chiesa_s.rocco_marco-paolo-servalli-architettura_7.jpg"
+   },
+   {
+    "src": "/images/progetti/chiesa-di-san-rocco/04.jpg",
+    "width": 1448,
+    "height": 1448,
+    "orig": "chiesa_s.rocco_marco-paolo-servalli-architettura_5.jpg"
+   },
+   {
+    "src": "/images/progetti/chiesa-di-san-rocco/05.jpg",
+    "width": 1448,
+    "height": 1448,
+    "orig": "chiesa_s.rocco_marco-paolo-servalli-architettura_6.jpg"
+   },
+   {
+    "src": "/images/progetti/chiesa-di-san-rocco/06.jpg",
+    "width": 1600,
+    "height": 1294,
+    "orig": "chiesa_s.rocco_marco-paolo-servalli-architettura_3.jpg"
+   },
+   {
+    "src": "/images/progetti/chiesa-di-san-rocco/07.jpg",
+    "width": 1000,
+    "height": 1500,
+    "orig": "chiesa_s.rocco_marco-paolo-servalli-architettura_1.jpg"
+   },
+   {
+    "src": "/images/progetti/chiesa-di-san-rocco/08.jpg",
+    "width": 1380,
+    "height": 1105,
+    "orig": "chiesa_s.rocco_marco-paolo-servalli-architettura_10.jpg"
+   }
+  ],
+  "sant-agata-nel-carmine": [
+   {
+    "src": "/images/progetti/sant-agata-nel-carmine/01.jpg",
+    "width": 370,
+    "height": 370,
+    "orig": "s.agata_nel_carmine_-_dettaglio.jpg"
+   },
+   {
+    "src": "/images/progetti/sant-agata-nel-carmine/02.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "s.agata_nel_carmine_-_restauro.jpg"
+   },
+   {
+    "src": "/images/progetti/sant-agata-nel-carmine/03.jpg",
+    "width": 1000,
+    "height": 723,
+    "drawing": true,
+    "orig": "s.agata_nel_carmine_-_progetto.jpg"
+   },
+   {
+    "src": "/images/progetti/sant-agata-nel-carmine/04.jpg",
+    "width": 1000,
+    "height": 667,
+    "drawing": true,
+    "orig": "s.agata_nel_carmine_-_spettrografia.jpg"
+   },
+   {
+    "src": "/images/progetti/sant-agata-nel-carmine/05.jpg",
+    "width": 1000,
+    "height": 750,
+    "orig": "s.agata_nel_carmine_-_cantiere.jpg"
+   },
+   {
+    "src": "/images/progetti/sant-agata-nel-carmine/06.jpg",
+    "width": 1000,
+    "height": 750,
+    "orig": "s.agata_nel_carmine_-_tirante.jpg"
+   },
+   {
+    "src": "/images/progetti/sant-agata-nel-carmine/07.jpg",
+    "width": 1000,
+    "height": 708,
+    "orig": "s.agata_nel_carmine_-_cappella.jpg"
+   },
+   {
+    "src": "/images/progetti/sant-agata-nel-carmine/08.jpg",
+    "width": 640,
+    "height": 480,
+    "orig": "s.agata_nel_carmine_-_tetto.jpg"
+   },
+   {
+    "src": "/images/progetti/sant-agata-nel-carmine/09.jpg",
+    "width": 640,
+    "height": 480,
+    "orig": "s.agata_nel_carmine_-_tegole.jpg"
+   },
+   {
+    "src": "/images/progetti/sant-agata-nel-carmine/10.jpg",
+    "width": 573,
+    "height": 430,
+    "orig": "s.agata_nel_carmine_-_facciata.jpg"
+   },
+   {
+    "src": "/images/progetti/sant-agata-nel-carmine/11.jpg",
+    "width": 573,
+    "height": 430,
+    "orig": "s.agata_nel_carmine_-_campanile.jpg"
+   }
+  ],
+  "chiesa-di-san-pancrazio": [
+   {
+    "src": "/images/progetti/chiesa-di-san-pancrazio/01.jpg",
+    "width": 370,
+    "height": 370,
+    "orig": "san_pancrazio_-_dettaglio.jpg"
+   },
+   {
+    "src": "/images/progetti/chiesa-di-san-pancrazio/02.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "san_pancrazio_-_cupola.jpg"
+   },
+   {
+    "src": "/images/progetti/chiesa-di-san-pancrazio/03.jpg",
+    "width": 1000,
+    "height": 792,
+    "orig": "san_pancrazio_-_fessura.jpg"
+   },
+   {
+    "src": "/images/progetti/chiesa-di-san-pancrazio/04.jpg",
+    "width": 1000,
+    "height": 620,
+    "orig": "san_pancrazio_-_volta.jpg"
+   },
+   {
+    "src": "/images/progetti/chiesa-di-san-pancrazio/05.jpg",
+    "width": 511,
+    "height": 430,
+    "drawing": true,
+    "orig": "san_pancrazio_-_monitoraggio.jpg"
+   },
+   {
+    "src": "/images/progetti/chiesa-di-san-pancrazio/06.jpg",
+    "width": 573,
+    "height": 430,
+    "orig": "san_pancrazio_-_restauro.jpg"
+   },
+   {
+    "src": "/images/progetti/chiesa-di-san-pancrazio/07.jpg",
+    "width": 573,
+    "height": 430,
+    "orig": "san_pancrazio_-_affresco.jpg"
+   },
+   {
+    "src": "/images/progetti/chiesa-di-san-pancrazio/08.jpg",
+    "width": 1000,
+    "height": 1524,
+    "orig": "san_pancrazio_-_altare.jpg"
+   }
+  ],
+  "la-chiesa-di-san-giovanni-battista": [
+   {
+    "src": "/images/progetti/la-chiesa-di-san-giovanni-battista/01.jpg",
+    "width": 370,
+    "height": 370,
+    "orig": "san_giovanni_-_dettaglio_0.jpg"
+   },
+   {
+    "src": "/images/progetti/la-chiesa-di-san-giovanni-battista/02.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "san-giovanni-facciata.jpg"
+   },
+   {
+    "src": "/images/progetti/la-chiesa-di-san-giovanni-battista/03.jpg",
+    "width": 360,
+    "height": 480,
+    "orig": "san_giovanni_-_precedente.jpg"
+   },
+   {
+    "src": "/images/progetti/la-chiesa-di-san-giovanni-battista/04.jpg",
+    "width": 1000,
+    "height": 777,
+    "drawing": true,
+    "orig": "san_giovanni_-_spettrografia.jpg"
+   },
+   {
+    "src": "/images/progetti/la-chiesa-di-san-giovanni-battista/05.jpg",
+    "width": 573,
+    "height": 430,
+    "orig": "san_giovanni_-_restauro.jpg"
+   },
+   {
+    "src": "/images/progetti/la-chiesa-di-san-giovanni-battista/06.jpg",
+    "width": 573,
+    "height": 430,
+    "orig": "san_giovanni_-_pulitura.jpg"
+   },
+   {
+    "src": "/images/progetti/la-chiesa-di-san-giovanni-battista/07.jpg",
+    "width": 573,
+    "height": 430,
+    "orig": "san_giovanni_-_cantiere.jpg"
+   },
+   {
+    "src": "/images/progetti/la-chiesa-di-san-giovanni-battista/08.jpg",
+    "width": 1000,
+    "height": 1159,
+    "orig": "san-giovanni-insieme.jpg"
+   }
+  ],
+  "chiesa-di-santa-brigida": [
+   {
+    "src": "/images/progetti/chiesa-di-santa-brigida/01.jpg",
+    "width": 370,
+    "height": 370,
+    "orig": "santa_brigida_-_dettaglio.jpg"
+   },
+   {
+    "src": "/images/progetti/chiesa-di-santa-brigida/02.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "santa_brigida_-_insieme_1.jpg"
+   },
+   {
+    "src": "/images/progetti/chiesa-di-santa-brigida/03.jpg",
+    "width": 1000,
+    "height": 1500,
+    "orig": "santa_brigida_-_veduta.jpg"
+   },
+   {
+    "src": "/images/progetti/chiesa-di-santa-brigida/04.jpg",
+    "width": 285,
+    "height": 430,
+    "orig": "santa_brigida_-_altare.jpg"
+   },
+   {
+    "src": "/images/progetti/chiesa-di-santa-brigida/05.jpg",
+    "width": 1000,
+    "height": 1500,
+    "orig": "santa_brigida_-_battistero.jpg"
+   },
+   {
+    "src": "/images/progetti/chiesa-di-santa-brigida/06.jpg",
+    "width": 1000,
+    "height": 777,
+    "orig": "santa_brigida_-_fonte_battesimale.jpg"
+   }
+  ],
+  "convento-francescano-del-600": [
+   {
+    "src": "/images/progetti/convento-francescano-del-600/01.jpg",
+    "width": 1600,
+    "height": 1600,
+    "orig": "marco_paolo_servalli_architettura_restauro_facciate_convento_francescano_600_4_3.jpg"
+   },
+   {
+    "src": "/images/progetti/convento-francescano-del-600/02.jpg",
+    "width": 1600,
+    "height": 940,
+    "orig": "marco_paolo_servalli_architettura_restauro_facciate_convento_francescano_600_4_2.jpg"
+   },
+   {
+    "src": "/images/progetti/convento-francescano-del-600/03.jpg",
+    "width": 1063,
+    "height": 1600,
+    "orig": "marco_paolo_servalli_architettura_restauro_facciate_convento_francescano_600_4_4.jpg"
+   },
+   {
+    "src": "/images/progetti/convento-francescano-del-600/04.jpg",
+    "width": 1600,
+    "height": 1187,
+    "orig": "marco_paolo_servalli_architettura_restauro_facciate_convento_francescano_600_4_5.jpg"
+   },
+   {
+    "src": "/images/progetti/convento-francescano-del-600/05.jpg",
+    "width": 1558,
+    "height": 1600,
+    "orig": "marco_paolo_servalli_architettura_restauro_facciate_convento_francescano_600_4_1.jpg"
+   },
+   {
+    "src": "/images/progetti/convento-francescano-del-600/06.jpg",
+    "width": 1112,
+    "height": 1600,
+    "orig": "marco-paolo-servalli_architettura_restauro_facciate_convento_francescano_600_4-6.jpg"
+   }
+  ],
+  "la-villetta-casa-di-riposo-giuseppe-verdi": [
+   {
+    "src": "/images/progetti/la-villetta-casa-di-riposo-giuseppe-verdi/01.jpg",
+    "width": 1600,
+    "height": 1600,
+    "orig": "studio-servalli-architettura-restauro-facciate-villetta-6.jpg"
+   },
+   {
+    "src": "/images/progetti/la-villetta-casa-di-riposo-giuseppe-verdi/02.jpg",
+    "width": 1600,
+    "height": 1179,
+    "orig": "studio_servalli_architettura_restauro_facciate_villetta.jpg"
+   },
+   {
+    "src": "/images/progetti/la-villetta-casa-di-riposo-giuseppe-verdi/03.jpg",
+    "width": 1600,
+    "height": 1249,
+    "orig": "studio_servalli_architettura_restauro_facciate_villetta_7.jpg"
+   },
+   {
+    "src": "/images/progetti/la-villetta-casa-di-riposo-giuseppe-verdi/04.jpg",
+    "width": 1600,
+    "height": 1273,
+    "orig": "studio_servalli_architettura_restauro_facciate_villetta_1.jpg"
+   },
+   {
+    "src": "/images/progetti/la-villetta-casa-di-riposo-giuseppe-verdi/05.jpg",
+    "width": 1600,
+    "height": 1313,
+    "orig": "studio_servalli_architettura_restauro_facciate_villetta_8.jpg"
+   },
+   {
+    "src": "/images/progetti/la-villetta-casa-di-riposo-giuseppe-verdi/06.jpg",
+    "width": 1573,
+    "height": 1600,
+    "orig": "studio_servalli_architettura_restauro_facciate_villetta_4.jpg"
+   },
+   {
+    "src": "/images/progetti/la-villetta-casa-di-riposo-giuseppe-verdi/07.jpg",
+    "width": 1600,
+    "height": 982,
+    "orig": "studio_servalli_architettura_restauro_facciate_villetta_5.jpg"
+   },
+   {
+    "src": "/images/progetti/la-villetta-casa-di-riposo-giuseppe-verdi/08.jpg",
+    "width": 1600,
+    "height": 1140,
+    "orig": "studio_servalli_architettura_restauro_facciate_villetta_3.jpg"
+   }
+  ],
+  "palazzo-spampatti": [
+   {
+    "src": "/images/progetti/palazzo-spampatti/01.jpg",
+    "width": 370,
+    "height": 370,
+    "orig": "palazzo_spampatti_-_ingresso.jpg"
+   },
+   {
+    "src": "/images/progetti/palazzo-spampatti/02.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "palazzo_spampatti_-_giardino_0.jpg"
+   },
+   {
+    "src": "/images/progetti/palazzo-spampatti/03.jpg",
+    "width": 1000,
+    "height": 749,
+    "orig": "palazzo_spampatti_-_precedente.jpg"
+   },
+   {
+    "src": "/images/progetti/palazzo-spampatti/04.jpg",
+    "width": 1000,
+    "height": 667,
+    "orig": "palazzo_spampatti_-_porticato.jpg"
+   },
+   {
+    "src": "/images/progetti/palazzo-spampatti/05.jpg",
+    "width": 1000,
+    "height": 667,
+    "orig": "palazzo_spampatti_-_scale.jpg"
+   },
+   {
+    "src": "/images/progetti/palazzo-spampatti/06.jpg",
+    "width": 1002,
+    "height": 716,
+    "orig": "palazzo_spampatti_-_interni.jpg"
+   },
+   {
+    "src": "/images/progetti/palazzo-spampatti/07.jpg",
+    "width": 1000,
+    "height": 667,
+    "orig": "palazzo_spampatti_-_vasca.jpg"
+   },
+   {
+    "src": "/images/progetti/palazzo-spampatti/08.jpg",
+    "width": 1000,
+    "height": 667,
+    "orig": "palazzo_spampatti_-_camino.jpg"
+   }
+  ],
+  "casa-di-riposo-musicisti-fondazione-giuseppe-verdi": [
+   {
+    "src": "/images/progetti/casa-di-riposo-musicisti-fondazione-giuseppe-verdi/01.jpg",
+    "width": 370,
+    "height": 370,
+    "drawing": true,
+    "orig": "servalli-architettura-progetto-facciate-casa-verdi-milano-1-rev_0.jpg"
+   },
+   {
+    "src": "/images/progetti/casa-di-riposo-musicisti-fondazione-giuseppe-verdi/02.jpg",
+    "width": 1600,
+    "height": 1600,
+    "drawing": true,
+    "orig": "servalliarchitettura-progetto-facciate-casa-verdi-milano.jpg"
+   },
+   {
+    "src": "/images/progetti/casa-di-riposo-musicisti-fondazione-giuseppe-verdi/03.jpg",
+    "width": 1600,
+    "height": 1013,
+    "drawing": true,
+    "orig": "servalli_architettura_-_progetto_facciate_casa_verdi_milano_2.jpg"
+   },
+   {
+    "src": "/images/progetti/casa-di-riposo-musicisti-fondazione-giuseppe-verdi/04.jpg",
+    "width": 1600,
+    "height": 1187,
+    "drawing": true,
+    "orig": "servalli-architettura-progetto-facciate-casa-verdi-milano-1.jpg"
+   },
+   {
+    "src": "/images/progetti/casa-di-riposo-musicisti-fondazione-giuseppe-verdi/05.jpg",
+    "width": 1600,
+    "height": 1524,
+    "drawing": true,
+    "orig": "servalli-architettura-progetto-facciate-casa-verdi-milano-3.jpg"
+   },
+   {
+    "src": "/images/progetti/casa-di-riposo-musicisti-fondazione-giuseppe-verdi/06.jpg",
+    "width": 1600,
+    "height": 986,
+    "drawing": true,
+    "orig": "servalli-architettura-progetto-facciate-casa-verdi-milano-4.jpg"
+   },
+   {
+    "src": "/images/progetti/casa-di-riposo-musicisti-fondazione-giuseppe-verdi/07.jpg",
+    "width": 1600,
+    "height": 996,
+    "drawing": true,
+    "orig": "servalli-architettura-progetto-facciate-casa-verdi-milano-5.jpg"
+   },
+   {
+    "src": "/images/progetti/casa-di-riposo-musicisti-fondazione-giuseppe-verdi/08.jpg",
+    "width": 1600,
+    "height": 915,
+    "drawing": true,
+    "orig": "servalli-architettura-progetto-facciate-casa-verdi-milano-6.jpg"
+   }
+  ],
+  "cascina-lombarda": [
+   {
+    "src": "/images/progetti/cascina-lombarda/01.jpg",
+    "width": 370,
+    "height": 370,
+    "orig": "cascina_lombarda_-_loggiato_0.jpg"
+   },
+   {
+    "src": "/images/progetti/cascina-lombarda/02.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "cascina_lombarda_-_esterno_0.jpg"
+   },
+   {
+    "src": "/images/progetti/cascina-lombarda/03.jpg",
+    "width": 1000,
+    "height": 975,
+    "orig": "cascina_lombarda_-_precedente.jpg"
+   },
+   {
+    "src": "/images/progetti/cascina-lombarda/04.jpg",
+    "width": 1000,
+    "height": 667,
+    "orig": "cascina_lombarda_-_ingresso.jpg"
+   },
+   {
+    "src": "/images/progetti/cascina-lombarda/05.jpg",
+    "width": 1000,
+    "height": 667,
+    "orig": "cascina_lombarda_-_interno.jpg"
+   },
+   {
+    "src": "/images/progetti/cascina-lombarda/06.jpg",
+    "width": 1000,
+    "height": 667,
+    "orig": "cascina_lombarda_-_cucina.jpg"
+   },
+   {
+    "src": "/images/progetti/cascina-lombarda/07.jpg",
+    "width": 1000,
+    "height": 717,
+    "orig": "cascina_lombarda_-_scale.jpg"
+   },
+   {
+    "src": "/images/progetti/cascina-lombarda/08.jpg",
+    "width": 1000,
+    "height": 667,
+    "orig": "cascina_lombarda_-_dettaglio.jpg"
+   },
+   {
+    "src": "/images/progetti/cascina-lombarda/09.jpg",
+    "width": 1000,
+    "height": 667,
+    "orig": "cascina_lombarda_-_porticato.jpg"
+   }
+  ],
+  "villa-quartiere-santa-lucia-bergamo": [
+   {
+    "src": "/images/progetti/villa-quartiere-santa-lucia-bergamo/01.jpg",
+    "width": 370,
+    "height": 370,
+    "orig": "santa_lucia_-_dettaglio.jpg"
+   },
+   {
+    "src": "/images/progetti/villa-quartiere-santa-lucia-bergamo/02.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "santa_lucia_-_esterno.jpg"
+   },
+   {
+    "src": "/images/progetti/villa-quartiere-santa-lucia-bergamo/03.jpg",
+    "width": 800,
+    "height": 600,
+    "orig": "santa_lucia_-_precedente.jpg"
+   },
+   {
+    "src": "/images/progetti/villa-quartiere-santa-lucia-bergamo/04.jpg",
+    "width": 1000,
+    "height": 1500,
+    "orig": "santa_lucia_-_insieme.jpg"
+   },
+   {
+    "src": "/images/progetti/villa-quartiere-santa-lucia-bergamo/05.jpg",
+    "width": 1000,
+    "height": 660,
+    "orig": "santa_lucia_-_esterni.jpg"
+   },
+   {
+    "src": "/images/progetti/villa-quartiere-santa-lucia-bergamo/06.jpg",
+    "width": 1000,
+    "height": 1499,
+    "orig": "santa_lucia_-_scala.jpg"
+   },
+   {
+    "src": "/images/progetti/villa-quartiere-santa-lucia-bergamo/07.jpg",
+    "width": 1000,
+    "height": 612,
+    "orig": "santa_lucia_-_terrazza.jpg"
+   },
+   {
+    "src": "/images/progetti/villa-quartiere-santa-lucia-bergamo/08.jpg",
+    "width": 645,
+    "height": 430,
+    "orig": "santa_lucia_-_garage.jpg"
+   },
+   {
+    "src": "/images/progetti/villa-quartiere-santa-lucia-bergamo/09.jpg",
+    "width": 1000,
+    "height": 1500,
+    "orig": "santa_lucia_-_giardino.jpg"
+   }
+  ],
+  "studio-bergamo": [
+   {
+    "src": "/images/progetti/studio-bergamo/01.jpg",
+    "width": 370,
+    "height": 370,
+    "orig": "studio_-_dettaglio_0.jpg"
+   },
+   {
+    "src": "/images/progetti/studio-bergamo/02.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "studio_-_scala.jpg"
+   },
+   {
+    "src": "/images/progetti/studio-bergamo/03.jpg",
+    "width": 1000,
+    "height": 1034,
+    "orig": "studio_-_esterno.jpg"
+   },
+   {
+    "src": "/images/progetti/studio-bergamo/04.jpg",
+    "width": 1000,
+    "height": 750,
+    "orig": "studio_-_interno.jpg"
+   },
+   {
+    "src": "/images/progetti/studio-bergamo/05.jpg",
+    "width": 1000,
+    "height": 738,
+    "orig": "studio_-_salone.jpg"
+   },
+   {
+    "src": "/images/progetti/studio-bergamo/06.jpg",
+    "width": 1000,
+    "height": 1344,
+    "orig": "studio_-_soppalco.jpg"
+   }
+  ],
+  "casa-di-riposo-di-cologno-al-serio": [
+   {
+    "src": "/images/progetti/casa-di-riposo-di-cologno-al-serio/01.jpg",
+    "width": 370,
+    "height": 370,
+    "orig": "casa_di_riposo_-_dettaglio.jpg"
+   },
+   {
+    "src": "/images/progetti/casa-di-riposo-di-cologno-al-serio/02.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "casa_di_riposo_-_hall.jpg"
+   },
+   {
+    "src": "/images/progetti/casa-di-riposo-di-cologno-al-serio/03.jpg",
+    "width": 1000,
+    "height": 949,
+    "orig": "casa_di_riposo_-_facciata.jpg"
+   },
+   {
+    "src": "/images/progetti/casa-di-riposo-di-cologno-al-serio/04.jpg",
+    "width": 1000,
+    "height": 667,
+    "orig": "casa_di_riposo_-_stanza.jpg"
+   },
+   {
+    "src": "/images/progetti/casa-di-riposo-di-cologno-al-serio/05.jpg",
+    "width": 1000,
+    "height": 665,
+    "orig": "casa_di_riposo_-_palestra.jpg"
+   },
+   {
+    "src": "/images/progetti/casa-di-riposo-di-cologno-al-serio/06.jpg",
+    "width": 1000,
+    "height": 665,
+    "orig": "casa_di_riposo_-_corridoio.jpg"
+   },
+   {
+    "src": "/images/progetti/casa-di-riposo-di-cologno-al-serio/07.jpg",
+    "width": 1000,
+    "height": 665,
+    "orig": "casa_di_riposo_-_cucina.jpg"
+   },
+   {
+    "src": "/images/progetti/casa-di-riposo-di-cologno-al-serio/08.jpg",
+    "width": 1000,
+    "height": 665,
+    "orig": "casa_di_riposo_-_bagno.jpg"
+   }
+  ],
+  "ospedale-vecchio": [
+   {
+    "src": "/images/progetti/ospedale-vecchio/01.jpg",
+    "width": 370,
+    "height": 370,
+    "orig": "ospedale_vecchio_-_dettaglio.jpg"
+   },
+   {
+    "src": "/images/progetti/ospedale-vecchio/02.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "ospedale_vecchio_-_esterno.jpg"
+   },
+   {
+    "src": "/images/progetti/ospedale-vecchio/03.jpg",
+    "width": 1000,
+    "height": 702,
+    "orig": "ospedale_vecchio_-_retro.jpg"
+   },
+   {
+    "src": "/images/progetti/ospedale-vecchio/04.jpg",
+    "width": 1000,
+    "height": 669,
+    "orig": "ospedale_vecchio_-_porticato.jpg"
+   },
+   {
+    "src": "/images/progetti/ospedale-vecchio/05.jpg",
+    "width": 1000,
+    "height": 665,
+    "orig": "ospedale_vecchio_-_archi.jpg"
+   },
+   {
+    "src": "/images/progetti/ospedale-vecchio/06.jpg",
+    "width": 1000,
+    "height": 1504,
+    "orig": "ospedale_vecchio_-_volta.jpg"
+   },
+   {
+    "src": "/images/progetti/ospedale-vecchio/07.jpg",
+    "width": 1000,
+    "height": 665,
+    "orig": "ospedale_vecchio_-_interno.jpg"
+   }
+  ],
+  "ristrutturazione-di-villa-eclettica": [
+   {
+    "src": "/images/progetti/ristrutturazione-di-villa-eclettica/01.jpg",
+    "width": 370,
+    "height": 370,
+    "orig": "villa_eclettica_-_dettaglio.jpg"
+   },
+   {
+    "src": "/images/progetti/ristrutturazione-di-villa-eclettica/02.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "villa_eclettica_-_porticato.jpg"
+   },
+   {
+    "src": "/images/progetti/ristrutturazione-di-villa-eclettica/03.jpg",
+    "width": 1000,
+    "height": 1001,
+    "orig": "villa_eclettica_-_precedente.jpg"
+   },
+   {
+    "src": "/images/progetti/ristrutturazione-di-villa-eclettica/04.jpg",
+    "width": 1000,
+    "height": 733,
+    "orig": "villa_eclettica_-_facciata.jpg"
+   },
+   {
+    "src": "/images/progetti/ristrutturazione-di-villa-eclettica/05.jpg",
+    "width": 1000,
+    "height": 721,
+    "orig": "villa_eclettica_-_esterni.jpg"
+   },
+   {
+    "src": "/images/progetti/ristrutturazione-di-villa-eclettica/06.jpg",
+    "width": 1000,
+    "height": 893,
+    "orig": "villa_eclettica_-_maniglia.jpg"
+   },
+   {
+    "src": "/images/progetti/ristrutturazione-di-villa-eclettica/07.jpg",
+    "width": 1000,
+    "height": 752,
+    "orig": "villa_eclettica_-_vetrata.jpg"
+   }
+  ],
+  "rigenerazione-urbana-i-locali-tecnici-di-una-palazzina": [
+   {
+    "src": "/images/progetti/rigenerazione-urbana-i-locali-tecnici-di-una-palazzina/01.jpg",
+    "width": 1600,
+    "height": 1600,
+    "orig": "servalli_architettura_rigenerazione_urbana_per_i_locali_tecnici_di_una_palazzina_1.jpg"
+   },
+   {
+    "src": "/images/progetti/rigenerazione-urbana-i-locali-tecnici-di-una-palazzina/02.jpg",
+    "width": 1600,
+    "height": 731,
+    "orig": "servalli_architettura_rigenerazione_urbana_per_i_locali_tecnici_di_una_palazzina_4.jpg"
+   },
+   {
+    "src": "/images/progetti/rigenerazione-urbana-i-locali-tecnici-di-una-palazzina/03.jpg",
+    "width": 1600,
+    "height": 1408,
+    "orig": "servalli_architettura_rigenerazione-urbana-per-i-locali-tecnici-di-una-palazzina-8.jpg"
+   },
+   {
+    "src": "/images/progetti/rigenerazione-urbana-i-locali-tecnici-di-una-palazzina/04.jpg",
+    "width": 1600,
+    "height": 1152,
+    "orig": "servalli_architettura_rigenerazione_urbana_per_i_locali_tecnici_di_una_palazzina_3.jpg"
+   },
+   {
+    "src": "/images/progetti/rigenerazione-urbana-i-locali-tecnici-di-una-palazzina/05.jpg",
+    "width": 1207,
+    "height": 1600,
+    "orig": "servalli_architettura_rigenerazione_urbana_per_i_locali_tecnici_di_una_palazzina_2.jpg"
+   },
+   {
+    "src": "/images/progetti/rigenerazione-urbana-i-locali-tecnici-di-una-palazzina/06.jpg",
+    "width": 1600,
+    "height": 731,
+    "orig": "servalli_architettura_rigenerazione_urbana_per_i_locali_tecnici_di_una_palazzina_4_0.jpg"
+   },
+   {
+    "src": "/images/progetti/rigenerazione-urbana-i-locali-tecnici-di-una-palazzina/07.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "servalli_architettura_rigenerazione_urbana_per_i_locali_tecnici_di_una_palazzina_5.jpg"
+   },
+   {
+    "src": "/images/progetti/rigenerazione-urbana-i-locali-tecnici-di-una-palazzina/08.jpg",
+    "width": 1600,
+    "height": 893,
+    "orig": "servalli_architettura_rigenerazione_urbana_per_i_locali_tecnici_di_una_palazzina_6.jpg"
+   },
+   {
+    "src": "/images/progetti/rigenerazione-urbana-i-locali-tecnici-di-una-palazzina/09.jpg",
+    "width": 1600,
+    "height": 831,
+    "orig": "servalli_architettura_rigenerazione_urbana_per_i_locali_tecnici_di_una_palazzina_7.jpg"
+   }
+  ],
+  "un-soggiorno-proteso-nel-giardino": [
+   {
+    "src": "/images/progetti/un-soggiorno-proteso-nel-giardino/01.jpg",
+    "width": 1600,
+    "height": 1600,
+    "orig": "servalli_architettura_-_soggiorno_proteso_nel_giardino_5.jpg"
+   },
+   {
+    "src": "/images/progetti/un-soggiorno-proteso-nel-giardino/02.jpg",
+    "width": 1600,
+    "height": 831,
+    "orig": "servalli_architettura_-_soggiorno_proteso_nel_giardino_6.jpg"
+   },
+   {
+    "src": "/images/progetti/un-soggiorno-proteso-nel-giardino/03.jpg",
+    "width": 1600,
+    "height": 948,
+    "orig": "servalli_architettura_-_soggiorno_proteso_nel_giardino_8.jpg"
+   },
+   {
+    "src": "/images/progetti/un-soggiorno-proteso-nel-giardino/04.jpg",
+    "width": 1600,
+    "height": 782,
+    "orig": "servalli_architettura_-_soggiorno_proteso_nel_giardino_7.jpg"
+   },
+   {
+    "src": "/images/progetti/un-soggiorno-proteso-nel-giardino/05.jpg",
+    "width": 1600,
+    "height": 1066,
+    "orig": "servalli_architettura_-_soggiorno_proteso_nel_giardino_1.jpg"
+   },
+   {
+    "src": "/images/progetti/un-soggiorno-proteso-nel-giardino/06.jpg",
+    "width": 1600,
+    "height": 888,
+    "orig": "servalli_architettura_-_soggiorno_proteso_nel_giardino_2.jpg"
+   },
+   {
+    "src": "/images/progetti/un-soggiorno-proteso-nel-giardino/07.jpg",
+    "width": 1600,
+    "height": 1349,
+    "orig": "servalli_architettura_-_soggiorno_proteso_nel_giardino_9.jpg"
+   },
+   {
+    "src": "/images/progetti/un-soggiorno-proteso-nel-giardino/08.jpg",
+    "width": 1600,
+    "height": 927,
+    "orig": "servalli_architettura_-_soggiorno_proteso_nel_giardino_4.jpg"
+   }
+  ],
+  "ampliamento-sito-industriale": [
+   {
+    "src": "/images/progetti/ampliamento-sito-industriale/01.jpg",
+    "width": 1600,
+    "height": 1600,
+    "orig": "servalli_architettura_-_nuovi_capannoni_3.jpg"
+   },
+   {
+    "src": "/images/progetti/ampliamento-sito-industriale/02.jpg",
+    "width": 1600,
+    "height": 420,
+    "orig": "servalli-architettura-nuovi_capannoni-8.jpg"
+   },
+   {
+    "src": "/images/progetti/ampliamento-sito-industriale/03.jpg",
+    "width": 1600,
+    "height": 826,
+    "orig": "servalli-architettura-nuovi-capannoni-7.jpg"
+   },
+   {
+    "src": "/images/progetti/ampliamento-sito-industriale/04.jpg",
+    "width": 1290,
+    "height": 484,
+    "orig": "servalli-architettura-nuovi_capannoni5.jpg"
+   },
+   {
+    "src": "/images/progetti/ampliamento-sito-industriale/05.jpg",
+    "width": 1600,
+    "height": 683,
+    "orig": "servalli-architettura_-_nuovi_capannoni-6.jpg"
+   },
+   {
+    "src": "/images/progetti/ampliamento-sito-industriale/06.jpg",
+    "width": 1600,
+    "height": 790,
+    "orig": "servalli_architettura_-_nuovi_capannoni_2.jpg"
+   },
+   {
+    "src": "/images/progetti/ampliamento-sito-industriale/07.jpg",
+    "width": 1600,
+    "height": 678,
+    "orig": "servalli-architettura-nuovi-capannoni-9.jpg"
+   },
+   {
+    "src": "/images/progetti/ampliamento-sito-industriale/08.jpg",
+    "width": 1600,
+    "height": 818,
+    "orig": "servalli_architettura_-_nuovi_capannoni_4.jpg"
+   }
+  ],
+  "progettato-il-padiglione-italia-l-expo-2016-di-antalya": [
+   {
+    "src": "/images/progetti/progettato-il-padiglione-italia-l-expo-2016-di-antalya/01.jpg",
+    "width": 706,
+    "height": 706,
+    "orig": "expo_antalya_italy_servalli_architettura_icona_copia.jpg"
+   },
+   {
+    "src": "/images/progetti/progettato-il-padiglione-italia-l-expo-2016-di-antalya/02.jpg",
+    "width": 1600,
+    "height": 880,
+    "orig": "expo_antalya_italy_servalli_architettura_1_premio.jpg"
+   },
+   {
+    "src": "/images/progetti/progettato-il-padiglione-italia-l-expo-2016-di-antalya/03.jpg",
+    "width": 1181,
+    "height": 1066,
+    "orig": "expo_01-padiglione-italia-j.jpg"
+   },
+   {
+    "src": "/images/progetti/progettato-il-padiglione-italia-l-expo-2016-di-antalya/04.jpg",
+    "width": 1219,
+    "height": 635,
+    "orig": "expo_antalya_italy_servalli_architettura_5.jpg"
+   },
+   {
+    "src": "/images/progetti/progettato-il-padiglione-italia-l-expo-2016-di-antalya/05.jpg",
+    "width": 1134,
+    "height": 616,
+    "orig": "expo_antalya_italy_servalli_architettura_3.jpg"
+   },
+   {
+    "src": "/images/progetti/progettato-il-padiglione-italia-l-expo-2016-di-antalya/06.jpg",
+    "width": 1417,
+    "height": 931,
+    "orig": "expo_03_4.jpg"
+   },
+   {
+    "src": "/images/progetti/progettato-il-padiglione-italia-l-expo-2016-di-antalya/07.jpg",
+    "width": 1276,
+    "height": 657,
+    "orig": "expo_antalya_italy_servalli_architettura_4.jpg"
+   },
+   {
+    "src": "/images/progetti/progettato-il-padiglione-italia-l-expo-2016-di-antalya/08.jpg",
+    "width": 1181,
+    "height": 497,
+    "orig": "expo_07_3.jpg"
+   },
+   {
+    "src": "/images/progetti/progettato-il-padiglione-italia-l-expo-2016-di-antalya/09.jpg",
+    "width": 1132,
+    "height": 741,
+    "orig": "expo_08_2.jpg"
+   }
+  ],
+  "edificio-borgo-palazzo-bergamo": [
+   {
+    "src": "/images/progetti/edificio-borgo-palazzo-bergamo/01.jpg",
+    "width": 370,
+    "height": 370,
+    "orig": "borgo_palazzo_-_dettaglio.jpg"
+   },
+   {
+    "src": "/images/progetti/edificio-borgo-palazzo-bergamo/02.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "borgo_palazzo_-_esterno.jpg"
+   },
+   {
+    "src": "/images/progetti/edificio-borgo-palazzo-bergamo/03.jpg",
+    "width": 1000,
+    "height": 684,
+    "orig": "borgo_palazzo_-_precedente.jpg"
+   },
+   {
+    "src": "/images/progetti/edificio-borgo-palazzo-bergamo/04.jpg",
+    "width": 1000,
+    "height": 869,
+    "drawing": true,
+    "orig": "borgo_palazzo_-_prospettiva.jpg"
+   },
+   {
+    "src": "/images/progetti/edificio-borgo-palazzo-bergamo/05.jpg",
+    "width": 1000,
+    "height": 644,
+    "drawing": true,
+    "orig": "borgo_palazzo_-_prospetto.jpg"
+   },
+   {
+    "src": "/images/progetti/edificio-borgo-palazzo-bergamo/06.jpg",
+    "width": 1000,
+    "height": 1205,
+    "orig": "borgo_palazzo_-_scorcio.jpg"
+   },
+   {
+    "src": "/images/progetti/edificio-borgo-palazzo-bergamo/07.jpg",
+    "width": 1000,
+    "height": 955,
+    "orig": "borgo_palazzo_-_fronte.jpg"
+   },
+   {
+    "src": "/images/progetti/edificio-borgo-palazzo-bergamo/08.jpg",
+    "width": 1000,
+    "height": 1049,
+    "orig": "borgo_palazzo_-_lato.jpg"
+   }
+  ],
+  "dettagli-d-epoca-un-piccolo-appartamento": [
+   {
+    "src": "/images/progetti/dettagli-d-epoca-un-piccolo-appartamento/01.jpg",
+    "width": 1600,
+    "height": 1600,
+    "orig": "servalli-architettura-dettagli-epoca-piccolo-appartamento-icona.jpg"
+   },
+   {
+    "src": "/images/progetti/dettagli-d-epoca-un-piccolo-appartamento/02.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "servalli-architettura-dettagli-epoca-piccolo-appartamento_3.jpg"
+   },
+   {
+    "src": "/images/progetti/dettagli-d-epoca-un-piccolo-appartamento/03.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "servalli-architettura-dettagli-epoca-piccolo-appartamento_1.jpg"
+   },
+   {
+    "src": "/images/progetti/dettagli-d-epoca-un-piccolo-appartamento/04.jpg",
+    "width": 1067,
+    "height": 1600,
+    "orig": "servalli-architettura-dettagli-epoca-piccolo-appartamento.jpg"
+   },
+   {
+    "src": "/images/progetti/dettagli-d-epoca-un-piccolo-appartamento/05.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "servalli-architettura-dettagli-epoca-piccolo-appartamento_4.jpg"
+   },
+   {
+    "src": "/images/progetti/dettagli-d-epoca-un-piccolo-appartamento/06.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "servalli-architettura-dettagli-epoca-piccolo-appartamento_3_1.jpg"
+   },
+   {
+    "src": "/images/progetti/dettagli-d-epoca-un-piccolo-appartamento/07.jpg",
+    "width": 1600,
+    "height": 1061,
+    "orig": "servalli-architettura-dettagli-epoca-piccolo-appartamento_5.jpg"
+   },
+   {
+    "src": "/images/progetti/dettagli-d-epoca-un-piccolo-appartamento/08.jpg",
+    "width": 1600,
+    "height": 1238,
+    "orig": "servalli-architettura-dettagli-epoca-piccolo-appartamento_2.jpg"
+   }
+  ],
+  "appartamento-ai-piedi-di-citta-alta": [
+   {
+    "src": "/images/progetti/appartamento-ai-piedi-di-citta-alta/01.jpg",
+    "width": 1281,
+    "height": 1281,
+    "orig": "servalli_architettura_-appartamento-in-citta-icona.jpg"
+   },
+   {
+    "src": "/images/progetti/appartamento-ai-piedi-di-citta-alta/02.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "servalli_architettura_-appartamento-in-citta-2.jpg"
+   },
+   {
+    "src": "/images/progetti/appartamento-ai-piedi-di-citta-alta/03.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "servalli_architettura_-appartamento-in-citta-3.jpg"
+   },
+   {
+    "src": "/images/progetti/appartamento-ai-piedi-di-citta-alta/04.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "servalli_architettura_-appartamento-in-citta-7.jpg"
+   },
+   {
+    "src": "/images/progetti/appartamento-ai-piedi-di-citta-alta/05.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "servalli_architettura_-appartamento-in-citta-4.jpg"
+   },
+   {
+    "src": "/images/progetti/appartamento-ai-piedi-di-citta-alta/06.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "servalli_architettura_-appartamento-in-citta-1.jpg"
+   },
+   {
+    "src": "/images/progetti/appartamento-ai-piedi-di-citta-alta/07.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "servalli_architettura_-appartamento-in-citta-8.jpg"
+   }
+  ],
+  "innovation-hub": [
+   {
+    "src": "/images/progetti/innovation-hub/01.jpg",
+    "width": 1600,
+    "height": 1600,
+    "orig": "innovation-hub-servalli-architettura-1-copia.jpg"
+   },
+   {
+    "src": "/images/progetti/innovation-hub/02.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "innovation-hub-servalli-architettura-1_0.jpg"
+   },
+   {
+    "src": "/images/progetti/innovation-hub/03.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "innovation-hub-servalli-architettura-2_0.jpg"
+   },
+   {
+    "src": "/images/progetti/innovation-hub/04.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "innovation-hub-servalli-architettura-5.jpg"
+   },
+   {
+    "src": "/images/progetti/innovation-hub/05.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "innovation-hub-servalli-architettura-7.jpg"
+   },
+   {
+    "src": "/images/progetti/innovation-hub/06.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "innovation-hub-servalli-architettura-3.jpg"
+   },
+   {
+    "src": "/images/progetti/innovation-hub/07.jpg",
+    "width": 1600,
+    "height": 838,
+    "orig": "innovation-hub-servalli-architettura-6.jpg"
+   },
+   {
+    "src": "/images/progetti/innovation-hub/08.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "innovation-hub-servalli-architettura-4.jpg"
+   }
+  ],
+  "risanamento-di-cascina-lombarda": [
+   {
+    "src": "/images/progetti/risanamento-di-cascina-lombarda/01.jpg",
+    "width": 370,
+    "height": 370,
+    "orig": "cascina_-_dettaglio.jpg"
+   },
+   {
+    "src": "/images/progetti/risanamento-di-cascina-lombarda/02.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "cascina_-_interno.jpg"
+   },
+   {
+    "src": "/images/progetti/risanamento-di-cascina-lombarda/03.jpg",
+    "width": 1000,
+    "height": 667,
+    "orig": "cascina_-_ingresso.jpg"
+   },
+   {
+    "src": "/images/progetti/risanamento-di-cascina-lombarda/04.jpg",
+    "width": 1000,
+    "height": 717,
+    "orig": "cascina_-_scale.jpg"
+   },
+   {
+    "src": "/images/progetti/risanamento-di-cascina-lombarda/05.jpg",
+    "width": 1000,
+    "height": 665,
+    "orig": "cascina_-_scala.jpg"
+   },
+   {
+    "src": "/images/progetti/risanamento-di-cascina-lombarda/06.jpg",
+    "width": 1000,
+    "height": 717,
+    "orig": "cascina_-_interni.jpg"
+   },
+   {
+    "src": "/images/progetti/risanamento-di-cascina-lombarda/07.jpg",
+    "width": 1000,
+    "height": 665,
+    "orig": "cascina_-_soggiorno.jpg"
+   },
+   {
+    "src": "/images/progetti/risanamento-di-cascina-lombarda/08.jpg",
+    "width": 1000,
+    "height": 665,
+    "orig": "cascina_-_tavolata.jpg"
+   }
+  ],
+  "villa-santa-lucia-interni": [
+   {
+    "src": "/images/progetti/villa-santa-lucia-interni/01.jpg",
+    "width": 370,
+    "height": 370,
+    "orig": "villa_-_dettaglio.jpg"
+   },
+   {
+    "src": "/images/progetti/villa-santa-lucia-interni/02.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "villa_-_interno.jpg"
+   },
+   {
+    "src": "/images/progetti/villa-santa-lucia-interni/03.jpg",
+    "width": 1000,
+    "height": 667,
+    "orig": "villa_-_ingresso.jpg"
+   },
+   {
+    "src": "/images/progetti/villa-santa-lucia-interni/04.jpg",
+    "width": 1000,
+    "height": 667,
+    "orig": "villa_-_salotto.jpg"
+   },
+   {
+    "src": "/images/progetti/villa-santa-lucia-interni/05.jpg",
+    "width": 1000,
+    "height": 667,
+    "orig": "villa_-_soggiorno.jpg"
+   },
+   {
+    "src": "/images/progetti/villa-santa-lucia-interni/06.jpg",
+    "width": 1000,
+    "height": 715,
+    "orig": "villa_-_scale.jpg"
+   },
+   {
+    "src": "/images/progetti/villa-santa-lucia-interni/07.jpg",
+    "width": 1000,
+    "height": 667,
+    "orig": "villa_-_cucina.jpg"
+   },
+   {
+    "src": "/images/progetti/villa-santa-lucia-interni/08.jpg",
+    "width": 1000,
+    "height": 715,
+    "orig": "villa_-_mansarda.jpg"
+   }
+  ],
+  "appartamento-citta": [
+   {
+    "src": "/images/progetti/appartamento-citta/01.jpg",
+    "width": 370,
+    "height": 370,
+    "orig": "appartamento_-_dettaglio.jpg"
+   },
+   {
+    "src": "/images/progetti/appartamento-citta/02.jpg",
+    "width": 1600,
+    "height": 1068,
+    "orig": "appartamento_-_corridoio.jpg"
+   },
+   {
+    "src": "/images/progetti/appartamento-citta/03.jpg",
+    "width": 1000,
+    "height": 665,
+    "orig": "appartamento_-_tavolo.jpg"
+   },
+   {
+    "src": "/images/progetti/appartamento-citta/04.jpg",
+    "width": 1000,
+    "height": 665,
+    "orig": "appartamento_-_sala_pranzo.jpg"
+   },
+   {
+    "src": "/images/progetti/appartamento-citta/05.jpg",
+    "width": 1000,
+    "height": 665,
+    "orig": "appartamento_-_studio.jpg"
+   },
+   {
+    "src": "/images/progetti/appartamento-citta/06.jpg",
+    "width": 1000,
+    "height": 717,
+    "orig": "appartamento_-_scale.jpg"
+   },
+   {
+    "src": "/images/progetti/appartamento-citta/07.jpg",
+    "width": 1000,
+    "height": 665,
+    "orig": "appartamento_-_terrazzo.jpg"
+   }
+  ],
+  "appartamento-costa-azzurra": [
+   {
+    "src": "/images/progetti/appartamento-costa-azzurra/01.jpg",
+    "width": 370,
+    "height": 370,
+    "orig": "villeneuve_-_vista.jpg"
+   },
+   {
+    "src": "/images/progetti/appartamento-costa-azzurra/02.jpg",
+    "width": 1020,
+    "height": 680,
+    "orig": "villeneuve_-_soggiorno_0.jpg"
+   },
+   {
+    "src": "/images/progetti/appartamento-costa-azzurra/03.jpg",
+    "width": 1000,
+    "height": 1506,
+    "orig": "villeneuve_-_baia.jpg"
+   },
+   {
+    "src": "/images/progetti/appartamento-costa-azzurra/04.jpg",
+    "width": 1000,
+    "height": 657,
+    "orig": "villeneuve_-_sala_da_pranzo.jpg"
+   },
+   {
+    "src": "/images/progetti/appartamento-costa-azzurra/05.jpg",
+    "width": 835,
+    "height": 675,
+    "orig": "villeneuve_-_cucina.jpg"
+   },
+   {
+    "src": "/images/progetti/appartamento-costa-azzurra/06.jpg",
+    "width": 1000,
+    "height": 709,
+    "orig": "villeneuve_-_interni.jpg"
+   }
+  ]
+ },
+ "news": [
+  {
+   "src": "/images/news/news-01.jpg",
+   "width": 1600,
+   "height": 1600,
+   "drawing": true,
+   "orig": "marco_paolo_servalli_architettura_ex_borsa_merci_bg_progetto_riqualificazione_spazio_accoglienza_integrata_1.jpg"
+  },
+  {
+   "src": "/images/news/news-02.jpg",
+   "width": 1600,
+   "height": 1600,
+   "orig": "servalli_architettura_risanamento_conservativo_villa_anni_50.jpg"
+  },
+  {
+   "src": "/images/news/news-03.jpg",
+   "width": 1600,
+   "height": 1600,
+   "orig": "servalliarchitettura_studio_fattibilita_riqualificazione_ex_cinema_al_parco_gandino_1_0.jpg"
+  },
+  {
+   "src": "/images/news/news-04.jpg",
+   "width": 1500,
+   "height": 1500,
+   "drawing": true,
+   "orig": "servalliarchitettura_-_progetto_facciate_casa_verdi_milano.jpg"
+  },
+  {
+   "src": "/images/news/news-05.jpg",
+   "width": 1541,
+   "height": 649,
+   "orig": "20_luglioa.jpg"
+  },
+  {
+   "src": "/images/news/news-06.jpg",
+   "width": 1417,
+   "height": 779,
+   "orig": "expo_antalya_italy_servalli_architettura_1_copia.jpg"
+  },
+  {
+   "src": "/images/news/news-07.jpg",
+   "width": 1440,
+   "height": 804,
+   "orig": "isolamento.jpg"
+  },
+  {
+   "src": "/images/news/news-08.jpg",
+   "width": 1600,
+   "height": 1068,
+   "orig": "award_-_facciata.jpg"
+  },
+  {
+   "src": "/images/news/news-09.jpg",
+   "width": 1600,
+   "height": 1068,
+   "drawing": true,
+   "orig": "villa_guffanti_-_prospetto.jpg"
+  },
+  {
+   "src": "/images/news/news-10.jpg",
+   "width": 1600,
+   "height": 1068,
+   "orig": "vaprio_-_veduta_aerea.jpg"
+  },
+  {
+   "src": "/images/news/news-11.jpg",
+   "width": 1600,
+   "height": 1068,
+   "orig": "serravalle_-_riqualificazione.jpg"
+  },
+  {
+   "src": "/images/news/news-12.jpg",
+   "width": 1600,
+   "height": 1068,
+   "orig": "parco_iraq_-_vista_aerea.jpg"
+  }
+ ],
+ "studio": {
+  "ritratto": {
+   "src": "/images/studio/marco-paolo-servalli.jpg",
+   "width": 1600,
+   "height": 1068,
+   "orig": "marco_paolo_servalli.jpg"
+  },
+  "servizi": {
+   "src": "/images/servizi/ponteggio.jpg",
+   "width": 1600,
+   "height": 1068,
+   "orig": "ponteggio.jpg"
+  }
+ }
+}

@@ -1,0 +1,284 @@
+# Deploy statico su Netlify.
+# Il dominio canonico è in astro.config.mjs (SITE_URL) e in src/data/site.ts (dominio).
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  # Astro 5.18 usa rolldown/vite 8: servono engine recenti
+  NODE_VERSION = "20"
+  # il lockfile generato su Windows fa saltare il binding nativo per Linux (npm#4828):
+  # su Netlify si installa fresco
+  NPM_FLAGS = "--no-package-lock"
+
+# Redirect 301 dai vecchi URL del sito Drupal (servalliarchitettura.it/it/...) alle nuove rotte.
+# La versione inglese (/en/) non è stata portata: rimanda alla home.
+[[redirects]]
+  from = "/it"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/it/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti.html"
+  to = "/progetti/"
+  status = 301
+
+[[redirects]]
+  from = "/it/servizi.html"
+  to = "/servizi/"
+  status = 301
+
+[[redirects]]
+  from = "/it/biografia.html"
+  to = "/studio/"
+  status = 301
+
+[[redirects]]
+  from = "/it/news.html"
+  to = "/news/"
+  status = 301
+
+[[redirects]]
+  from = "/it/privacy.html"
+  to = "/privacy-policy/"
+  status = 301
+
+[[redirects]]
+  from = "/it/credits.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/restauro-di-immobili-di-pregio.html"
+  to = "/progetti/restauro-di-immobili-di-pregio/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/restauro-di-architetture-religiose.html"
+  to = "/progetti/restauro-di-architetture-religiose/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/riqualificazione-di-aree-urbane.html"
+  to = "/progetti/riqualificazione-di-aree-urbane/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/architettura-d-interni.html"
+  to = "/progetti/architettura-d-interni/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/restauro-di-architetture-religiose/restauro-cappella-gentilizia.html"
+  to = "/progetti/restauro-cappella-gentilizia/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/restauro-di-architetture-religiose/chiesa-di-san-rocco.html"
+  to = "/progetti/chiesa-di-san-rocco/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/restauro-di-architetture-religiose/sant-agata-nel-carmine.html"
+  to = "/progetti/sant-agata-nel-carmine/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/restauro-di-architetture-religiose/chiesa-di-san-pancrazio.html"
+  to = "/progetti/chiesa-di-san-pancrazio/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/restauro-di-architetture-religiose/la-chiesa-di-san-giovanni-battista.html"
+  to = "/progetti/la-chiesa-di-san-giovanni-battista/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/restauro-di-architetture-religiose/chiesa-di-santa-brigida.html"
+  to = "/progetti/chiesa-di-santa-brigida/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/restauro-di-immobili-di-pregio/convento-francescano-del-600.html"
+  to = "/progetti/convento-francescano-del-600/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/restauro-di-immobili-di-pregio/la-villetta-casa-di-riposo-giuseppe-verdi.html"
+  to = "/progetti/la-villetta-casa-di-riposo-giuseppe-verdi/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/restauro-di-immobili-di-pregio/palazzo-spampatti.html"
+  to = "/progetti/palazzo-spampatti/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/restauro-di-immobili-di-pregio/casa-di-riposo-musicisti-fondazione-giuseppe-verdi.html"
+  to = "/progetti/casa-di-riposo-musicisti-fondazione-giuseppe-verdi/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/restauro-di-immobili-di-pregio/cascina-lombarda.html"
+  to = "/progetti/cascina-lombarda/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/restauro-di-immobili-di-pregio/villa-quartiere-santa-lucia-bergamo.html"
+  to = "/progetti/villa-quartiere-santa-lucia-bergamo/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/restauro-di-immobili-di-pregio/studio-bergamo.html"
+  to = "/progetti/studio-bergamo/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/restauro-di-immobili-di-pregio/casa-di-riposo-di-cologno-al-serio.html"
+  to = "/progetti/casa-di-riposo-di-cologno-al-serio/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/restauro-di-immobili-di-pregio/ospedale-vecchio.html"
+  to = "/progetti/ospedale-vecchio/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/restauro-di-immobili-di-pregio/ristrutturazione-di-villa-eclettica.html"
+  to = "/progetti/ristrutturazione-di-villa-eclettica/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/riqualificazione-di-aree-urbane/rigenerazione-urbana-i-locali-tecnici-di-una-palazzina.html"
+  to = "/progetti/rigenerazione-urbana-i-locali-tecnici-di-una-palazzina/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/riqualificazione-di-aree-urbane/un-soggiorno-proteso-nel-giardino.html"
+  to = "/progetti/un-soggiorno-proteso-nel-giardino/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/riqualificazione-di-aree-urbane/ampliamento-sito-industriale.html"
+  to = "/progetti/ampliamento-sito-industriale/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/riqualificazione-di-aree-urbane/progettato-il-padiglione-italia-l-expo-2016-di-antalya.html"
+  to = "/progetti/progettato-il-padiglione-italia-l-expo-2016-di-antalya/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/riqualificazione-di-aree-urbane/edificio-borgo-palazzo-bergamo.html"
+  to = "/progetti/edificio-borgo-palazzo-bergamo/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/architettura-d-interni/dettagli-d-epoca-un-piccolo-appartamento.html"
+  to = "/progetti/dettagli-d-epoca-un-piccolo-appartamento/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/architettura-d-interni/appartamento-ai-piedi-di-citta-alta.html"
+  to = "/progetti/appartamento-ai-piedi-di-citta-alta/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/architettura-d-interni/innovation-hub.html"
+  to = "/progetti/innovation-hub/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/architettura-d-interni/risanamento-di-cascina-lombarda.html"
+  to = "/progetti/risanamento-di-cascina-lombarda/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/architettura-d-interni/villa-quartiere-santa-lucia-bergamo.html"
+  to = "/progetti/villa-santa-lucia-interni/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/architettura-d-interni/appartamento-citta.html"
+  to = "/progetti/appartamento-citta/"
+  status = 301
+
+[[redirects]]
+  from = "/it/progetti/architettura-d-interni/appartamento-costa-azzurra.html"
+  to = "/progetti/appartamento-costa-azzurra/"
+  status = 301
+
+[[redirects]]
+  from = "/it/node/432"
+  to = "/news/"
+  status = 301
+
+[[redirects]]
+  from = "/it/node/428"
+  to = "/news/"
+  status = 301
+
+[[redirects]]
+  from = "/it/news/un-ex-cinema-degli-anni-60-disuso-rinasce-come-centro-poliedrico.html"
+  to = "/news/"
+  status = 301
+
+[[redirects]]
+  from = "/it/news/casa-di-riposo-musicisti-giuseppe-verdiun-progetto-ritrovare-alle-facciate-l-antica"
+  to = "/news/"
+  status = 301
+
+[[redirects]]
+  from = "/it/news/quattro-nuove-unita-residenziali-pensate-come-rustici-annessi-ad-un-antica-cascina-bergamasca"
+  to = "/news/"
+  status = 301
+
+[[redirects]]
+  from = "/it/node/361"
+  to = "/news/"
+  status = 301
+
+[[redirects]]
+  from = "/it/news/una-casa-ben-isolata-e-calda-ed-accogliente-ha-pochissime-dispersioni-termiche-e-questo"
+  to = "/news/"
+  status = 301
+
+[[redirects]]
+  from = "/it/news/il-progetto-sant-agata-nel-carmine-premiato-all-italian-heritage-award.html"
+  to = "/news/"
+  status = 301
+
+[[redirects]]
+  from = "/it/news/riqualificazione-di-una-prestigiosa-villa-liberty.html"
+  to = "/news/"
+  status = 301
+
+[[redirects]]
+  from = "/it/news/un-armonioso-progetto-urbanistico-la-riqualificazione-di-un-area-dismessa.html"
+  to = "/news/"
+  status = 301
+
+[[redirects]]
+  from = "/it/news/un-interessante-progetto-di-riqualificazione-di-un-area-industriale-dismessa.html"
+  to = "/news/"
+  status = 301
+
+[[redirects]]
+  from = "/it/news/una-moderna-interpretazione-della-tradizione-araba-del-giardino.html"
+  to = "/news/"
+  status = 301
+
+[[redirects]]
+  from = "/en/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/en"
+  to = "/"
+  status = 301

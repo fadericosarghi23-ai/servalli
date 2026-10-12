@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Picture from '../components/Picture.astro';
+import Icon from '../components/Icon.astro';
+import ProcessCards from '../components/ProcessCards.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import MapEmbed from '../components/MapEmbed.astro';
+import Cta from '../components/Cta.astro';
+import { site } from '../data/site';
+import { servizi } from '../data/servizi';
+import { progetti, progetto } from '../data/progetti';
+import { heroSlides, progettiHome, numeriHome, aree } from '../data/contenuti';
+import type { Img } from '../lib/media';
+
+const title = 'Studio Servalli Architettura | Restauro e riqualificazione a Bergamo';
+const description = site.descrizione;
+const fotoStudio: Img = { src: '/images/studio/marco-paolo-servalli.jpg', width: 1600, height: 1068, alt: 'L’architetto Marco Paolo Servalli nello studio di Longuelo, Bergamo' };
+---
+<Layout title={title} description={description} transparent>
+<section class="hero" aria-label="Progetti in evidenza"> <div class="hero-slides" data-hero> {heroSlides.map((s, i) => <figure class:list={['hero-slide', { 'is-active': i === 0 }]} data-title={s.titolo} data-location={s.luogo} data-href={s.href}> <Picture img={s.img} eager={i === 0} class="full-img" /> </figure>)} </div> <div class="container hero-content"> <p class="eyebrow-light mb-3">{site.nome} · {site.attivita} · {site.indirizzo.citta}</p> <h1 class="h1">Siete pronti a fare <em>nuovi progetti?</em></h1> <div class="hero-meta"> <div> <p class="lead">Valorizziamo la personalità di un’architettura, la attualizziamo con soluzioni innovative. Sia nei grandi progetti che nei piccoli interventi funzione ed estetica si combinano per un risultato emozionante.</p> <div class="btn-row"> <a href="/progetti/" class="btn btn-primary">Vedi i progetti</a> <a href="/contatti/#richiesta" class="btn btn-outline-light">Contattaci</a> </div> </div> <div class="hero-caption" aria-live="polite"> <span class="label">Nella foto</span> <a href={heroSlides[0].href} class="link-underline" data-hero-caption>{heroSlides[0].titolo} · {heroSlides[0].luogo}</a> <div class="hero-dots" role="group" aria-label="Scegli l'immagine"> {heroSlides.map((s, i) => <button type="button" aria-label={`Mostra ${s.titolo}`} aria-current={i === 0 ? 'true' : 'false'} data-dot={i}></button>)} </div> </div> </div> </div> </section>
+
+<section class="section"> <div class="container split"> <div class="reveal"> <div class="ratio-45"> <Picture img={fotoStudio} sizes="(min-width: 1024px) 38vw, 92vw" /> </div> </div> <div class="reveal"> <p class="eyebrow mb-2">Marco Paolo Servalli</p> <h2 class="h2">Funzionalità degli spazi, estetica degli ambienti</h2> <div class="prose mt-3 lead"> <p>L’architettura è un organismo vivo, con una sua storia, una nascita e una vita di trasformazioni. Il recupero è anch’esso un’opera di trasformazione, che adegua l’edificio alle esigenze del vivere moderno, e che deve essere condotta nel rispetto della cultura che lo ha prodotto e del fascino che trasmette.</p> <p>Marco Paolo Servalli è autore di importanti progetti di restauro e riqualificazione architettonica. È considerato uno specialista nel recupero di edifici e nella specifica direzione lavori.</p> </div> <div class="stats mt-4"> {numeriHome.map((s) => <div class="stat"><strong>{s.n}</strong><span>{s.label}</span></div>)} </div> <a href="/studio/" class="btn btn-outline mt-4">Leggi la biografia</a> </div> </div> </section>
+
+<section class="section bg-sand"> <div class="container"> <div class="section-head reveal"> <div> <p class="eyebrow mb-2">Consulenze</p> <h2 class="h2">Qualsiasi consiglio non è un consiglio qualsiasi</h2> <p class="lead mt-2">Forniamo consulenze mirate e supportiamo le vostre decisioni per valorizzare le potenzialità di un’architettura.</p> </div> <a href="/servizi/" class="btn btn-outline">Tutti i servizi</a> </div> <ul class="services services-4 reveal"> {servizi.map((s) => <li class="service"> <Icon name={s.icona} class="icon" /> <h3 class="h4"><a href={`/servizi/#${s.id}`} class="link-underline">{s.nome}</a></h3> <p>{s.breve}</p> </li>)} </ul> </div> </section>
+
+<section class="section"> <div class="container"> <div class="section-head reveal"> <div> <p class="eyebrow">News</p> <h2 class="h2">Gli ultimi progetti dello studio</h2> </div> <a href="/news/" class="text-link link-underline">Tutte le news</a> </div> <ProcessCards /> </div> </section>
+
+<section class="section" style="padding-top: 0"> <div class="container"> <div class="section-head reveal"> <div> <p class="eyebrow">Progetti</p> <h2 class="h2">Valorizzare il calore, l’armonia, la storia di un luogo</h2> </div> <a href="/progetti/" class="text-link link-underline">Tutti i {progetti.length} progetti</a> </div> <div class="projects-grid"> {progettiHome.map((slug) => <ProjectCard p={progetto(slug)} />)} </div> </div> </section>
+
+<section class="section bg-ink"> <div class="container"> <div class="section-head reveal"> <div> <p class="eyebrow">Dove lavoriamo</p> <h2 class="h2">Da Bergamo a Milano e oltre confine</h2> <p class="lead mt-2" style="color: rgb(255 255 255 / 0.72)">Restauri e riqualificazioni a Bergamo e in provincia, interventi a Milano e progetti all’estero. Il conteggio segue i progetti pubblicati nel portfolio.</p> </div> </div> <ul class="areas reveal"> {aree.map((a) => <li class="area"> <span>{a.conteggio}</span> <strong>{a.nome}</strong> <p>{a.comuni}</p> </li>)} </ul> </div> </section>
+
+<section class="section"> <div class="container grid-2"> <div class="reveal"> <p class="eyebrow mb-2">Dove siamo</p> <h2 class="h2">{site.nome} a {site.indirizzo.citta}</h2> <p class="lead mt-3">Lo studio si trova nel quartiere Longuelo, alle pendici di Città Alta. Scrivici o chiamaci per fissare un incontro.</p> <div class="contact-cards mt-4"> <div class="contact-card"> <h3>{site.indirizzo.citta}</h3> <p>{site.indirizzo.via}<br>{site.indirizzo.cap} {site.indirizzo.citta} ({site.indirizzo.provincia})</p> <a href={site.mapsUrl} target="_blank" rel="noopener" class="text-link link-underline mt-1" style="display:inline-block">Apri in Google Maps</a> </div> <div class="contact-card"> <h3>Contatti</h3> {site.telefono && <p><a href={`tel:${site.telefonoE164}`}>{site.telefono}</a></p>} <p><a href={`mailto:${site.email}`}>{site.email}</a></p> </div> </div> </div> <div class="map reveal"> <MapEmbed span={0.012} /> </div> </div> </section>
+<Cta />
+<script>
+var e=document.querySelector(`[data-hero]`);if(e){let t=[...e.querySelectorAll(`.hero-slide`)],n=[...document.querySelectorAll(`[data-dot]`)],r=document.querySelector(`[data-hero-caption]`),i=window.matchMedia(`(prefers-reduced-motion: reduce)`).matches,a=0,o,s=e=>{t[a].classList.remove(`is-active`),n[a].setAttribute(`aria-current`,`false`),a=(e+t.length)%t.length;let i=t[a];i.querySelectorAll(`img`).forEach(e=>e.setAttribute(`loading`,`eager`)),i.classList.add(`is-active`),n[a].setAttribute(`aria-current`,`true`),r&&(r.textContent=`${i.dataset.title} · ${i.dataset.location}`,r.href=i.dataset.href||`#`)},c=()=>{i||(o=window.setInterval(()=>s(a+1),6e3))};n.forEach((e,t)=>e.addEventListener(`click`,()=>{window.clearInterval(o),s(t),c()})),window.addEventListener(`load`,()=>t.forEach(e=>e.querySelectorAll(`img`).forEach(e=>e.setAttribute(`loading`,`eager`)))),c()}
+</script>
+</Layout>
