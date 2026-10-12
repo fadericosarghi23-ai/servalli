@@ -49,15 +49,15 @@ export const servizi: Servizio[] = [
     correlati: ["palazzo-spampatti","chiesa-di-san-rocco","ospedale-vecchio"],
     categoria: "cat-1",
   },
-  // [[DA VALIDARE: testo con riferimenti normativi datati (decreto giugno 2013, detrazione 65%, legge di stabilità 2015): aggiornare col cliente prima della pubblicazione]]
+  // Testo del sito con i riferimenti normativi 2013/2015 resi generici (erano superati): da far confermare allo studio.
   {
     id: "finanziamenti-incentivi",
     nome: "Finanziamenti ed incentivi",
     breve: "I moderni metodi di progettazione e l’utilizzo di tecnologie avanzate permettono oggi alti standard qualitativi ed anche notevoli risparmi nei consumi di energia e calore.",
     icona: "incentivi",
     paragrafi: [
-      "I moderni metodi di progettazione e l’utilizzo di tecnologie avanzate permettono oggi alti standard qualitativi ed anche notevoli risparmi nei consumi di energia e calore. Un’attenta progettazione può giovare molto sia all’ambiente che al portafoglio. Inoltre il nuovo decreto approvato dal governo a giugno 2013, ha messo a disposizione una serie di incentivi per rendere le abitazioni più efficienti sia dal punto di vista termico che energetico.",
-      "Le detrazioni possono, per alcune tipologie di intervento, raggiungere anche il 65% dell’investimento. La legge di stabilità 2015 ha inoltre prorogato la possibilità di detrazione delle spese sostenute per gli interventi di recupero edilizio ed introdotto la detrazione IRPEF per gli acquisti di immobili ristrutturati. Il nostro studio offre un accurato servizio di consulenza finalizzato all’ottenimento di finanziamenti ed incentivi, dalla valutazione tecnica ed economica delle soluzioni sino alla redazione delle pratiche necessarie.",
+      "I moderni metodi di progettazione e l’utilizzo di tecnologie avanzate permettono oggi alti standard qualitativi ed anche notevoli risparmi nei consumi di energia e calore. Un’attenta progettazione può giovare molto sia all’ambiente che al portafoglio. Inoltre la normativa mette a disposizione incentivi e detrazioni fiscali per rendere le abitazioni più efficienti sia dal punto di vista termico che energetico.",
+      "Le detrazioni, che cambiano nel tempo secondo le leggi in vigore, riguardano gli interventi di efficientamento energetico e di recupero edilizio. Il nostro studio offre un accurato servizio di consulenza finalizzato all’ottenimento di finanziamenti ed incentivi, dalla valutazione tecnica ed economica delle soluzioni sino alla redazione delle pratiche necessarie.",
     ],
     punti: [],
     foto: "edificio-borgo-palazzo-bergamo",

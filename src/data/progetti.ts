@@ -7,6 +7,7 @@
  * La prima è la copertina della card (come sul sito), le altre la gallery della scheda.
  * drawing = tavola/rilievo/spettrografia: niente crop nella gallery.
  * `progettisti` = riga crediti della scheda ("Progetto e direzione lavori ...").
+ * `luogo` vuoto = località non indicata sul sito: card, testata e scheda la nascondono.
  */
 import type { Img } from '../lib/media';
 
@@ -238,7 +239,7 @@ export const progetti: Progetto[] = [
   {
     slug: "chiesa-di-santa-brigida",
     titolo: "Chiesa di Santa Brigida",
-    luogo: "[[DA COMPILARE: località del progetto “Chiesa di Santa Brigida”, città (provincia)]]",
+    luogo: "", // località non indicata sul sito: riga nascosta finché il cliente non la comunica
     categoria: 'cat-2',
     categorie: ['cat-2'],
     intervento: "Valorizzare il passato, interpretare il presente",
@@ -385,7 +386,7 @@ export const progetti: Progetto[] = [
   {
     slug: "cascina-lombarda",
     titolo: "Cascina lombarda",
-    luogo: "[[DA COMPILARE: località del progetto “Cascina lombarda”, città (provincia)]]",
+    luogo: "", // località non indicata sul sito: riga nascosta finché il cliente non la comunica
     categoria: 'cat-1',
     categorie: ['cat-1'],
     intervento: "Il cotto, il legno e tutto il calore di un’antica casa di campagna",
@@ -519,7 +520,7 @@ export const progetti: Progetto[] = [
   {
     slug: "ristrutturazione-di-villa-eclettica",
     titolo: "Ristrutturazione di villa eclettica",
-    luogo: "[[DA COMPILARE: località del progetto “Ristrutturazione di villa eclettica”, città (provincia)]]",
+    luogo: "", // località non indicata sul sito: riga nascosta finché il cliente non la comunica
     categoria: 'cat-1',
     categorie: ['cat-1'],
     intervento: "Ritrovare lo splendore di una villa eclettica",
@@ -573,7 +574,7 @@ export const progetti: Progetto[] = [
   {
     slug: "un-soggiorno-proteso-nel-giardino",
     titolo: "Un soggiorno proteso nel giardino",
-    luogo: "[[DA COMPILARE: località del progetto “Un soggiorno proteso nel giardino”, città (provincia)]]",
+    luogo: "", // località non indicata sul sito: riga nascosta finché il cliente non la comunica
     categoria: 'cat-3',
     categorie: ['cat-3'],
     intervento: "Nuovi volumi creano un dialogo tra architettura e natura",
@@ -606,7 +607,7 @@ export const progetti: Progetto[] = [
   {
     slug: "ampliamento-sito-industriale",
     titolo: "Ampliamento sito industriale",
-    luogo: "[[DA COMPILARE: località del progetto “Ampliamento sito industriale”, città (provincia)]]",
+    luogo: "", // località non indicata sul sito: riga nascosta finché il cliente non la comunica
     categoria: 'cat-3',
     categorie: ['cat-3'],
     intervento: "Nuovi edifici per il complesso industriale di un’azienda innovativa",
@@ -786,7 +787,7 @@ export const progetti: Progetto[] = [
   {
     slug: "risanamento-di-cascina-lombarda",
     titolo: "Risanamento di cascina lombarda",
-    luogo: "[[DA COMPILARE: località del progetto “Risanamento di cascina lombarda”, città (provincia)]]",
+    luogo: "", // località non indicata sul sito: riga nascosta finché il cliente non la comunica
     categoria: 'cat-4',
     categorie: ['cat-4'],
     intervento: "Il cotto, il legno e tutto il calore di un’antica casa di campagna",
@@ -840,7 +841,7 @@ export const progetti: Progetto[] = [
   {
     slug: "appartamento-citta",
     titolo: "Appartamento in città",
-    luogo: "[[DA COMPILARE: località del progetto “Appartamento in città”, città (provincia)]]",
+    luogo: "", // località non indicata sul sito: riga nascosta finché il cliente non la comunica
     categoria: 'cat-4',
     categorie: ['cat-4'],
     intervento: "Giochi di volumi e colori per una sofisticata residenza",

@@ -61,8 +61,8 @@ export const site = {
   geo: { lat: 45.6960757, lng: 9.6337972 } as null | { lat: number; lng: number },
   /** Link "Apri in Google Maps / Indicazioni stradali" della sede principale */
   mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Via%20Longuelo%2092%2C%2024129%20Bergamo',
-  /** Modalità di ricevimento (pagina contatti) */
-  ricevimento: '[[DA COMPILARE: orari dello studio o modalità di ricevimento, es. su appuntamento]]',
+  /** Orari / modalità di ricevimento (pagina contatti). Non indicati sul sito: vuoto = card nascosta. */
+  ricevimento: '',
 
   /** Social: lasciare l'array vuoto per nascondere il blocco. */
   social: [
@@ -90,10 +90,11 @@ export const site = {
     'Direzione lavori',
   ],
 
-  /** Form contatti. endpoint vuoto + mailto: il form apre il programma di posta verso l'email.
-   *  [[DA COMPILARE: collegamento del form (Netlify Forms o endpoint) da concordare col cliente]] */
+  /** Form contatti su Netlify Forms: Netlify rileva il modulo "contatti" al deploy, i messaggi
+   *  finiscono in Netlify → Forms e si inoltrano via email da Form notifications (a info@...).
+   *  Dopo l'invio si va su /grazie/. Honeypot anti-spam già nel modulo. */
   form: {
-    netlify: false,
+    netlify: true,
     endpoint: '',
     mailto: 'info@servalliarchitettura.it',
   },

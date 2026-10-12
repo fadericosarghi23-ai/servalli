@@ -29,21 +29,24 @@ npm run check-residui  # residui di tìlde/Campomarzio e segnaposto della base: 
 
 - **Testi**: verbatim dal sito live (schede progetto, servizi, biografia, news). San Rocco era in
   MAIUSCOLO sul sito: riportato in minuscolo. Estratti delle news = prima frase.
-- **Foto**: originali da `/sites/default/files/` ridotti a max 1920px → `public/images/<sezione>/`
+- **Foto**: originali da `/sites/default/files/` → `public/images/<sezione>/`, poi compressi a max 1600px q72 (`scripts/comprimi-foto.mjs`, 27,5 MB)
   (`scripts/servalli-immagini.mjs`, misure in `src/data/media.json`). La copertina di ogni progetto è la
   foto d'apertura; le miniature quadrate 370px della vecchia griglia sono scartate.
   `scripts/servalli-progetti.mjs` rigenera `src/data/progetti.ts`.
 - **Palette** (solo token in `global.css`): dal CSS del tema live, tortora `#C2A68F` + testo `#6f7072`.
   Bottoni/sopratitoli/fascia CTA usano il tortora scurito `#7d6656` (5.4:1 sul bianco).
-- **Logo**: PNG reale 443×109 in header/footer. Favicon/icone/OG da `scripts/servalli-icone.mjs`.
+- **Logo**: SVG ridisegnato dal PNG reale 443×109 (header/footer); il PNG resta per i dati strutturati. Favicon/icone/OG da `scripts/servalli-icone.mjs`.
 - **Font**: quelli della base (il sito usa Raleway/Arapey, Google Fonts non proprietari).
 - **Redirect 301** in `netlify.toml` da tutti i vecchi URL `/it/...` (progetti, categorie, news, pagine).
 - Recensioni/testimonianze: assenti (la base non le ha). Badge "Socio di Assorestauro" nel footer.
 
-## Slot aperti
+## Stato (nessuno slot [[DA COMPILARE]] aperto)
 
-- Località di 7 progetti (non scritte sul sito): Santa Brigida, Cascina lombarda, Villa eclettica,
-  Soggiorno nel giardino, Ampliamento sito industriale, Risanamento cascina, Appartamento in città.
-- Orari dello studio. Collegamento del form. Logo SVG originale.
-- [[DA VALIDARE]]: servizio "Finanziamenti ed incentivi" (norme 2013/2015 datate); palette.
+- Località di 7 progetti non scritte sul sito: `luogo: ""` e la riga non viene resa (card, testata,
+  scheda, liste). Da inserire in `src/data/progetti.ts` quando il cliente le comunica.
+- Orari: `site.ricevimento` vuoto, la card in /contatti/ compare quando si compila.
+- Form: Netlify Forms (`site.form.netlify`), redirect a /grazie/. Attivare le notifiche email in Netlify.
+- Logo: SVG ridisegnato dal PNG (`scripts/servalli-logo-svg.cjs`, Playfair Display + Raleway in tracciati).
+- "Finanziamenti ed incentivi": norme 2013/2015 rese generiche, da far confermare.
+- [[DA VALIDARE]]: palette.
 - Non portati: versione inglese, testi integrali delle news, pagina Credits (solo loghi senza nomi).

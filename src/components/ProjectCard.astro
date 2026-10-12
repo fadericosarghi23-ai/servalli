@@ -7,4 +7,4 @@ const { p, h = 'h3', eager = false } = Astro.props;
 const H = h;
 const cover = copertina(p);
 ---
-<article class="reveal"> <a href={`/progetti/${p.slug}/`} class="card"> <div class:list={['media', { 'is-drawing': cover.drawing }]}> <span class="cat">{categoria(p.categoria).etichetta}</span> <Picture img={cover} sizes="(min-width: 1024px) 31vw, (min-width: 640px) 46vw, 92vw" eager={eager} /> </div> <H>{p.titolo}</H> <p class="loc">{p.luogo}</p> <ul class="tags" aria-label="Tag del progetto"> {p.temi.map((t) => <li>{t}</li>)} </ul> </a> </article>
+<article class="reveal"> <a href={`/progetti/${p.slug}/`} class="card"> <div class:list={['media', { 'is-drawing': cover.drawing }]}> <span class="cat">{categoria(p.categoria).etichetta}</span> <Picture img={cover} sizes="(min-width: 1024px) 31vw, (min-width: 640px) 46vw, 92vw" eager={eager} /> </div> <H>{p.titolo}</H> {p.luogo && <p class="loc">{p.luogo}</p>} <ul class="tags" aria-label="Tag del progetto"> {p.temi.map((t) => <li>{t}</li>)} </ul> </a> </article>

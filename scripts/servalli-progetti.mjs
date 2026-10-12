@@ -88,7 +88,7 @@ for (const p of j.progetti) {
     const alt = d ? `${titolo}, ${d}` : `${titolo}, foto ${k + 1}`;
     return `      { src: ${q(im.src)}, width: ${im.width}, height: ${im.height}, alt: ${q(alt)}${im.drawing ? ', drawing: true' : ''} },`;
   });
-  const luogo = LUOGO[slug] ?? `[[DA COMPILARE: località del progetto “${titolo}”, città (provincia)]]`;
+  const luogo = LUOGO[slug] ?? ''; // non indicata sul sito: riga nascosta
   righe.push(`  {
     slug: ${q(slug)},
     titolo: ${q(titolo)},

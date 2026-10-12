@@ -37,7 +37,7 @@ head.writeUInt16LE(1, 10); head.writeUInt16LE(32, 12); head.writeUInt32LE(p32.le
 fs.writeFileSync(path.join(PUB, 'favicon.ico'), Buffer.concat([head, p32]));
 
 // Open Graph 1200x630
-const logo = await sharp(path.join(PUB, 'img/logo/servalli-architettura.png')).resize({ width: 443 }).toBuffer();
+const logo = await sharp(path.join(PUB, 'img/logo/servalli-architettura.svg'), { density: 144 }).resize({ width: 443 }).png().toBuffer();
 fs.mkdirSync(path.join(PUB, 'img/og'), { recursive: true });
 await sharp(path.join(PUB, 'images/progetti/palazzo-spampatti/02.jpg'))
   .resize(1200, 630, { fit: 'cover', position: 'centre' })

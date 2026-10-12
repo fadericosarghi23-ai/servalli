@@ -96,9 +96,10 @@ story += [bullets([
     'Animazioni: carosello in dissolvenza della home, header trasparente che diventa pieno, comparse allo scroll, lightbox delle gallery.',
 ])]
 story += [Paragraph('Logo e icone', H2)]
-story += [Paragraph('Logo ufficiale (targa tortora con scritta bianca) usato in header e footer: è disponibile solo '
-                    'in PNG 443×109, serve la versione vettoriale SVG. Favicon e icone dell’app riprendono la “S” '
-                    'dell’icona del sito, ridisegnata in vettoriale.', BODY)]
+story += [Paragraph('Il logo (targa tortora con scritta bianca) esisteva solo in PNG 443×109: è stato ridisegnato '
+                    'in SVG vettoriale con gli stessi caratteri del sito (Playfair Display e Raleway, convertiti in '
+                    'tracciati), quindi resta nitido a ogni dimensione. Favicon e icone dell’app riprendono la “S” '
+                    'dell’icona del sito, anch’essa ridisegnata in vettoriale.', BODY)]
 story += [PageBreak()]
 
 # ---------- PAGINA 3 — contenuti & immagini ----------
@@ -138,11 +139,11 @@ story += [bullets([
 ])]
 story += [Paragraph('Da chiudere con il cliente', H2)]
 story += [bullets([
-    '<b>Località di 7 progetti</b>, non indicate sul sito: Santa Brigida, le due Cascine lombarde, Villa eclettica, Soggiorno nel giardino, Ampliamento sito industriale, Appartamento in città.',
-    '<b>Orari dello studio</b> e <b>logo vettoriale (SVG)</b>.',
-    '<b>Servizio “Finanziamenti ed incentivi”</b>: cita norme del 2013–2015 ormai superate, da aggiornare.',
-    '<b>Modulo di contatto</b>: ora apre il programma di posta; da collegare (es. Netlify Forms).',
-    'Conferma della <b>palette</b>. Non portati: versione inglese, testi integrali delle news, pagina Credits.',
+    '<b>Località di 7 progetti</b> (Santa Brigida, le due Cascine lombarde, Villa eclettica, Soggiorno nel giardino, Ampliamento sito industriale, Appartamento in città): non sono indicate sul sito, quindi la riga non compare; si aggiungono appena lo studio le comunica.',
+    '<b>Orari dello studio</b>: non indicati sul sito; la scheda “Orari” in Contatti compare quando vengono inseriti.',
+    '<b>Servizio “Finanziamenti ed incentivi”</b>: i riferimenti alle norme 2013–2015 sono stati resi generici; far confermare il testo.',
+    '<b>Modulo di contatto</b>: collegato a Netlify Forms. Dopo il primo deploy attivare in Netlify l’inoltro email dei messaggi a info@servalliarchitettura.it.',
+    'Conferma della <b>palette</b> e del <b>logo ridisegnato</b>. Non portati: versione inglese, testi integrali delle news, pagina Credits.',
 ])]
 story += [Paragraph('Pubblicazione', H2)]
 story += [kv_table([

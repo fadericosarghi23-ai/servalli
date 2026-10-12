@@ -35,7 +35,7 @@ export const GET: APIRoute = () => {
     '## Servizi',
     '',
     ...servizi.map((s) => `- [${s.nome}](${abs(`/servizi/#${s.id}`)}): ${s.breve}`),
-    ...categorie.flatMap((c) => ['', `## Progetti — ${c.nome}`, '', ...inCategoria(c.id).map((p) => `- [${p.titolo}](${abs(`/progetti/${p.slug}/`)}): ${p.intervento}. ${p.luogo}.${p.importo ? ` Importo: ${p.importo}.` : ''}`)]),
+    ...categorie.flatMap((c) => ['', `## Progetti — ${c.nome}`, '', ...inCategoria(c.id).map((p) => `- [${p.titolo}](${abs(`/progetti/${p.slug}/`)}): ${p.intervento}.${p.luogo ? ` ${p.luogo}.` : ''}${p.importo ? ` Importo: ${p.importo}.` : ''}`)]),
     '',
   ];
   return new Response(righe.join('\n'), { headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
